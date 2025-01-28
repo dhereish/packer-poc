@@ -27,7 +27,7 @@ source "proxmox-iso" "ubuntu-server-24" {
   boot_iso {
     type     = "scsi"
     iso_file = "local:iso/ubuntu-24.04.1-live-server-amd64.iso"
-    # iso_url = "https://releases.ubuntu.com/24.04/ubuntu-24.04-live-server-amd64.iso"
+    # iso_url = "https://releases.ubuntu.com/24.10/ubuntu-24.10-live-server-amd64.iso"
     iso_storage_pool = "local"
     unmount          = true
     iso_checksum     = "sha256:e240e4b801f7bb68c20d1356b60968ad0c33a41d00d828e74ceb3364a0317be9"
